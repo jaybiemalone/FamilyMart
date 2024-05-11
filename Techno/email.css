@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box1{
+    position: absolute;
+    height: 95vh;
+    width: 95vw;
+    left: 2%;
+    top: 2%;
+}
+
+nav{
+    position: absolute;
+    height: 20vh;
+    width: 95vw;
+    left: 29px;
+    top: 5%;
+    background-color: rgb(112, 153, 115);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    color: orange;
+    transition: 0.6s ease;
+}
+
+h1{
+    color: rgb(25, 41, 29);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo{
+    position: relative;
+    right: 5%;
+}
+
+.menu{
+    position: relative;
+    right: 10%;
+}
+.contactbox{
+    position: relative;
+    font-size: 20px;
+    border: white solid 2px;
+    height: 33%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 6%;
+}
+
+main{
+    position: absolute;
+    height: 150%;
+    width: 96%;
+    top: 25%;
+    left: 29px;
+}
+
+.left{
+    position: absolute;
+    width: 50%;
+    height: 165%;
+}
+.right{
+    position: absolute;
+    width: 50%;
+    height: 165%;
+    left: 50%;
+}
+
+.context{
+    position: absolute;
+    top: 20px;
+    text-align: justify;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.leftbox1{
+    position: absolute;
+    border: rgb(189, 189, 189) solid 1px;
+    height: 90%;
+    width: 70%;
+    left: 15%;
+    top: 10%;
+}
+
+.labelleft{
+    background-color: rgb(209, 207, 207);
+    position: absolute;
+    height: 8%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.leftbox2{
+    position: absolute;
+    height: 89%;
+    width: 90%;
+    left: 21px;
+    top: 10%;
+    box-shadow:gray 0px 0px 5px 2px;
+}
+
+.leftinfo{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.firstname{
+    position: absolute;
+}
+
+.lastname{
+    position: absolute;
+    left: 200px;
+    top: -0px;
+}
+.email{
+    position: absolute;
+    top: 60px;
+}
+.phone{
+    position: absolute;
+    left: 200px;
+    top: 60px;
+}
+
+.shipping{
+    position: absolute;
+    top: 150px;
+    width: 200px;
+    height: 20px;
+}
+
+.addr{
+    position: absolute;
+    top: 200px;
+}
+.province{
+    position: absolute;
+    left: 200px;
+    top: 270px;
+}
+.postal{
+    position: absolute;
+    top: 270px;
+}
+
+.Payment{
+    position: absolute;
+    top: 350px;
+}
+
+.card{
+    position: absolute;
+    top: 470px;
+    left: 20px;
+}
+
+.gcash{
+    position: absolute;
+    top: 520px;
+    left: 20px;
+}
+
+.bank{
+    position: absolute;
+    top: 470px;
+    left: 190px;
+}
+
+.cod{
+    position: absolute;
+    top: 520px;
+    left: 190px;
+}
+
+.receive{
+    position: absolute;
+    top: 585px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    left: 20px;
+}
+
+.frequence{
+    position: absolute;
+    top: 650px;
+    left: 20px;
+}
+
+.placeorder{
+    position: absolute;
+    top: 720px;
+    left: 20px;
+}
+
+.upload{
+    position: absolute;
+    top: 890px;
+    width: 300px;
+    display: flex;
+    left: 20px;
+}
+
+.firstparag{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 80, 80);
+    font-size: 13px;
+}
+
+.borderbot{
+    position: absolute;
+    width: 640px;
+    border-bottom: rgb(170, 170, 170) solid 1px;
+    top: 27%;
+    left: -15px;
+}
+
+.borderbot1{
+    position: absolute;
+    width: 640px;
+    border-bottom: rgb(170, 170, 170) solid 1px;
+    top: 37%;
+    left: -15px;
+}
+
+.borderbot2{
+    position: absolute;
+    width: 640px;
+    border-bottom: rgb(170, 170, 170) solid 1px;
+    top: 49%;
+    left: -15px;
+}
